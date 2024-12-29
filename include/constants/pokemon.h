@@ -71,6 +71,9 @@
 #define NATURE_QUIRKY   24
 #define NUM_NATURES     25
 
+// Flag value for Hidden Natures
+#define MON_DATA_HIDDEN_NATURE     90
+
 // Pokémon Stats
 #define STAT_HP      0
 #define STAT_ATK     1
@@ -126,7 +129,6 @@
 
 // Shiny odds
 #define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
-#define MON_DATA_HIDDEN_NATURE     89
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -206,7 +208,7 @@
 #define MON_FEMALE     0xFE
 #define MON_GENDERLESS 0xFF
 
-#define HIDDEN_NATURE_NONE      26  // 25 natures. not 0xFF to conserve bits
+#define HIDDEN_NATURE_NONE      0  // 25 natures. not 0xFF to conserve bits
 
 // Constants for AdjustFriendship
 #define FRIENDSHIP_EVENT_GROW_LEVEL       0

@@ -913,7 +913,7 @@ static u8 CreateMonSprite(struct Pokemon *mon)
     sPokeblockFeed->species = species;
     sPokeblockFeed->monSpriteId_ = spriteId;
     sPokeblockFeed->nature = GetNature(mon, FALSE);
-    gSprites[spriteId].tSpecies = species;
+    gSprites[spriteId].sSpecies = species;
     gSprites[spriteId].callback = SpriteCallbackDummy;
 
     sPokeblockFeed->noMonFlip = TRUE;
