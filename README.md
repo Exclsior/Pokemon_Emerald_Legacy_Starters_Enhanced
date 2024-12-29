@@ -75,6 +75,8 @@ An expansion on the Pokemon Emerald Legacy Project which further buffs the Hoenn
     * e.g. "Cutter" in Rustboro's dialogue updated to note a pokemon able to learn cut can chop down thin trees.
   * Credit to devolov (Discord: devolov#4853) for [Only Pokemon that can Learn HM can Use Field Move so Long as HM is in Bag](https://github.com/pret/pokeemerald/wiki/Use-HMs-Without-Any-Pokemon-in-your-Party-Knowing-Them#only-pokemon-that-can-learn-hm-can-use-field-move-so-long-as-hm-is-in-bag)
   * Credit to [ScyrousFX](https://www.pokecommunity.com/member.php?u=980149) for [Use Fly/Flash from party menu if Pokémon is compatible](https://www.pokecommunity.com/showpost.php?p=10420068)
+  * Stat Editor to edit IVs and EVs added to Party Menu after National Dex is unlocked.
+    * Credit to TeamAquasHideout for [EV IV Stat Editor UI](https://github.com/pret/pokeemerald/wiki/Add-a-EV---IV-Stat-Editor-UI)
   * Nature Mints have been added in the game for purchase after beating Petalburg Gym.
     * One free Serious Mint will be given by Norman after gaining the Facade TM.
     * Pretty Petal Flower Shop North of Petalburg Woods will sell all mints at 20,000 pokedollars each.
