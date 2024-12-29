@@ -724,7 +724,7 @@ static void PrintMonStats()
         AddTextPrinterParameterized4(WINDOW_3, FONT_NORMAL, 41 + 8, 19, 0, 0, sGenderColors[(gender == MON_FEMALE)], TEXT_SKIP_DRAW, text);
     }
 
-    nature = GetNature(ReturnPartyMon());
+    nature = GetNature(ReturnPartyMon(), TRUE);
     StringCopy(gStringVar2, gNatureNamePointers[nature]);
     AddTextPrinterParameterized4(WINDOW_3, FONT_SMALL_NARROW, 4, 50, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar2);
 
